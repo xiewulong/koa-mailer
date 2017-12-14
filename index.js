@@ -33,7 +33,6 @@ module.exports = (options) => {
       };
 
       transporter = nodemailer.createTransport(options);
-      console.dir(transporter.sendMail);
     }
 
     ctx.mailer = (data, callback) => transporter.sendMail(Object.assign(default_data, data), (error, info) => callback(error, info, nodemailer));
