@@ -1,0 +1,31 @@
+{
+  "name": "koa-mailer-v2",
+  "version": "0.0.1",
+  "description": "Koa 2 mailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./sample/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiewulong/koa-mailer.git"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "mailer",
+    "v2"
+  ],
+  "author": "xiewulong <xiewulong@vip.qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiewulong/koa-mailer/issues"
+  },
+  "homepage": "https://github.com/xiewulong/koa-mailer#readme",
+  "dependencies": {
+    "nodemailer": "^4.4.1"
+  },
+  "devDependencies": {
+    "koa": "^2.4.1"
+  }
+}
