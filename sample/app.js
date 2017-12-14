@@ -16,6 +16,7 @@ const production = app.env === 'production';
 app.keys = ['APP COOKIE SECRET KEY'];
 app
   .use(mailer({
+    from: 'mail_from@domain.com',
     host: 'localhost',
     port: 587,
     secure: false,
@@ -31,7 +32,7 @@ app
   .use(async(ctx, next) => {
     let url = await new Promise((resolve, reject) => {
       ctx.mailer({
-        to: 'your@mail.domain.com',
+        to: 'mail_to@domain.com',
         subject: 'Test mail',
         text: 'It\'s just a test mail!',
         html: '<p>It\'s just a test mail!</p>',

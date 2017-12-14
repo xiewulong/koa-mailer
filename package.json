@@ -1,6 +1,6 @@
 {
   "name": "koa-mailer-v2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Koa 2 mailer",
   "main": "index.js",
   "scripts": {
