@@ -1,6 +1,6 @@
-# Koa 2 mailer
+# Koa mailer
 
-Koa 2 邮件管理
+Koa 邮件管理
 
 ## 目录
 
